@@ -19,21 +19,21 @@ a:active {
 }
 
 .header-logo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo .logo-navi {
   color: #2e2f42;
 }
 
-.header-logo .logo-iris {
-  color: #4d5ae5;
-}
-
 .header-logo:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .nav {
@@ -44,6 +44,10 @@ a:active {
   color: #2e2f42;
 }
 
+.address {
+  font-style: normal;
+}
+
 .addr {
   font-weight: 400;
   font-size: 16px;
@@ -52,8 +56,9 @@ a:active {
   color: #434455;
 }
 
-.addr:hover {
-  color: #4d5ae5;
+.addr:hover,
+addr:focus {
+  color: #404bbf;
 }
 
 .banner {
@@ -76,6 +81,12 @@ a:active {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.banner-btn:hover,
+.banner-btn:focus {
+  background-color: #404bbf;
 }
 
 .hero-subtitle {
@@ -83,7 +94,7 @@ a:active {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
 
 .hero-text {
@@ -95,16 +106,22 @@ a:active {
 }
 
 .team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-img {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -113,7 +130,7 @@ a:active {
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434455;
+  color: #2e2f42;
 }
 .team-text {
   font-weight: 400;
@@ -131,6 +148,7 @@ a:active {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
@@ -159,11 +177,11 @@ a:active {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
-.footer-logo .logo-iris {
-  color: #4d5ae5;
+.footer-logo .logo-navi {
+  color: #f4f4fd;
 }
 
 .footer-text {
