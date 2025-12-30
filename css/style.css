@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -28,7 +28,7 @@ a:active {
   color: #4d5ae5;
 }
 
-.header-logo .logo-navi {
+.header-logo .header-logo-navi {
   color: #2e2f42;
 }
 
@@ -44,6 +44,11 @@ a:active {
   color: #2e2f42;
 }
 
+.nav:hover,
+.nav:focus {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -57,7 +62,7 @@ a:active {
 }
 
 .addr:hover,
-addr:focus {
+.addr:focus {
   color: #404bbf;
 }
 
@@ -171,7 +176,7 @@ addr:focus {
 }
 
 .footer-logo {
-  font-family: "Relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -180,8 +185,9 @@ addr:focus {
   color: #4d5ae5;
 }
 
-.footer-logo .logo-navi {
+.footer-logo .footer-logo-navi {
   color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-text {
