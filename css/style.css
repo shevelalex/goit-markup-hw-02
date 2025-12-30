@@ -33,7 +33,7 @@ a:active {
 }
 
 .header-logo:hover {
-  color: #434455;
+  color: #4d5ae5;
 }
 
 .nav {
@@ -50,6 +50,10 @@ a:active {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.addr:hover {
+  color: #4d5ae5;
 }
 
 .banner {
