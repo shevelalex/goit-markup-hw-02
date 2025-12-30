@@ -28,15 +28,15 @@ a:active {
   color: #2e2f42;
 }
 
-.header-logo:hover {
-  color: #ffffff;
-}
-
-.header-logo.logo-iris {
+.header-logo .logo-iris {
   color: #4d5ae5;
 }
 
-.navigation {
+.header-logo:hover {
+  color: #434455;
+}
+
+.nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -44,7 +44,7 @@ a:active {
   color: #2e2f42;
 }
 
-.address {
+.addr {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -98,6 +98,11 @@ a:active {
   text-align: center;
   color: #2e2f42;
 }
+
+.team-img {
+  text-align: center;
+}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
